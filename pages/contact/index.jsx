@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import Bulb from "../../components/Bulb";
+import Circles from "../../components/Circles";
 import { BsArrowRight } from "react-icons/bs";
-
+import ParticlesContainer from "../../components/ParticlesContainer";
 import { fadeIn } from "../../variants";
 import { useState } from "react";
 
@@ -104,15 +106,20 @@ const Contact = () => {
               <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                 Let's talk
               </span>
+              
 
               <BsArrowRight
                 className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
                 aria-hidden
               />
             </button>
+            {/* particles */}
+        <ParticlesContainer />
           </motion.form>
         </div>
       </div>
+      <Bulb />
+      <Circles />
     </div>
   );
 };

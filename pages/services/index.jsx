@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import ParticlesContainer from "../../components/ParticlesContainer";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 import ServiceSlider from "../../components/ServiceSlider";
@@ -35,6 +35,8 @@ const Services = () => {
               tempora eligendi, quisquam tempore sint reiciendis.
             </motion.p>
           </div>
+          {/* particles */}
+        <ParticlesContainer />
 
           {/* slider */}
           <motion.div

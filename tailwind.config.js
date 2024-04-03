@@ -17,7 +17,7 @@ module.exports = {
     screens: {
       sm: "640px",
       md: "768px",
-      lg: "960px",
+      lg: "850px",
       xl: "1200px",
     },
     extend: {
@@ -27,7 +27,7 @@ module.exports = {
         accent: "#F13024",
       },
       backgroundImage: {
-        explosion: 'url("/bg-explosion.png")',
+        explosion: 'url("/bg-ghantaghar.png")',
         circles: 'url("/bg-circles.png")',
         circleStar: 'url("/circle-star.svg")',
         site: 'url("/site-bg.svg")',

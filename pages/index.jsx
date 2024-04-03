@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
-
+import GifViewer from "../components/video";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
+// import Avatar from "../components/Avatar";
 
 import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
+      {/* GIF
+      <GifViewer /> */}
       {/* text */}
       <div className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto">
@@ -32,14 +34,11 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Terabyte Innovations, based in Kathmandu, Nepal, is a leading software company specializing in ERP solutions such as Terabyte Academic, Hospital, and Laboratory Software. Additionally, we offer bespoke on-demand software services tailored to meet specific client needs.
           </motion.p>
 
           {/* btn */}
-          <div className="flex justify-center xl:hidden relative">
+          <div className="flex justify-center md:hidden relative">
             <ProjectsBtn />
           </div>
           <motion.div
@@ -47,7 +46,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="hidden xl:flex"
+            className="hidden md:flex"
           >
             <ProjectsBtn />
           </motion.div>
@@ -58,7 +57,7 @@ const Home = () => {
         {/* bg img */}
         <div
           role="img"
-          className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"
+          className="bg-none md:bg-explosion md:bg-cover md:bg-right md:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"
           aria-hidden
         />
 
@@ -66,7 +65,7 @@ const Home = () => {
         <ParticlesContainer />
 
         {/* avatar */}
-        <motion.div
+        {/* <motion.div
           variants={fadeIn("up", 0.5)}
           initial="hidden"
           animate="show"
@@ -75,7 +74,7 @@ const Home = () => {
           className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
         >
           <Avatar />
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

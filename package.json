@@ -1,13 +1,13 @@
 {
-  "name": "modern-portfolio",
+  "name": "terabyte-innovations",
   "version": "1.0.1",
   "private": true,
   "author": {
-    "name": "Sanidhya Kumar Verma",
-    "email": "sanidhya.verma12345@gmail.com",
-    "url": "https://github.com/sanidhyy"
+    "name": "Nitesh Chaurasiya",
+    "email": "nitesh.kmr0612@gmail.com",
+    "url": "https://github.com/csknitesh7"
   },
-  "description": "Ethan Smith is a Full-stack web developer with 10+ years of experience.",
+  "description": "Terabyte Innovations : Unleasing Digital Possibilities",
   "keywords": [
     "react",
     "next",
@@ -23,26 +23,9 @@
     "3d-website",
     "particle-effect"
   ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sanidhyy/modern-portfolio.git"
-  },
-  "homepage": "https://github.com/sanidhyy/modern-portfolio#readme",
-  "bugs": {
-    "url": "https://github.com/sanidhyy/modern-portfolio/issues",
-    "email": "sanidhya.verma12345@gmail.com"
-  },
-  "funding": [
-    {
-      "type": "patreon",
-      "url": "https://www.patreon.com/sanidhy"
-    },
-    {
-      "type": "Buy me a coffee",
-      "url": "https://www.buymeacoffee.com/sanidhy"
-    }
-  ],
+  "homepage": "https://terabyteinnovations.com",
+  
+ 
   "scripts": {
     "dev": "next dev",
     "build": "next build",

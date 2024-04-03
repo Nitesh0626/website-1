@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
-
+import ParticlesContainer from "../../components/ParticlesContainer";
 import TestimonialSlider from "../../components/TestimonialSlider";
+import Bulb from "../../components/Bulb";
+import Circles from "../../components/Circles";
 import { fadeIn } from "../../variants";
 
 const Testimonials = () => {
@@ -16,7 +18,7 @@ const Testimonials = () => {
         >
           What clients <span className="text-accent">say.</span>
         </motion.h2>
-
+        
         {/* slider */}
         <motion.div
           variants={fadeIn("up", 0.4)}
@@ -26,7 +28,11 @@ const Testimonials = () => {
         >
           <TestimonialSlider />
         </motion.div>
+        {/* particles */}
+      <ParticlesContainer />
       </div>
+      <Bulb />
+      <Circles />
     </div>
   );
 };
