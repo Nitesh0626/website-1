@@ -16,29 +16,29 @@ import {
   const serviceData = [
     {
       Icon: RxCrop,
-      title: "Branding",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Development",
+      description: "Building innovative digital solutions tailored to your needs.",
     
     },
     {
       Icon: RxPencil2,
-      title: "Design",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "ERP Softwares",
+      description: "Efficiently manage your business processes with our tailored ERP solutions.",
     },
     {
       Icon: RxDesktop,
-      title: "Development",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "E-commerce",
+      description: "Create seamless online shopping experiences with our e-commerce solutions.",
     },
     {
       Icon: RxReader,
-      title: "Copywriting",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "Digital Marketing",
+      description: "Strategically promoting your business across digital platforms for maximum impact.",
     },
     {
       Icon: RxRocket,
       title: "SEO",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "Optimizing your online presence to boost visibility and drive traffic.",
     },
   ];
   
