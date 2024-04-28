@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import ParticlesContainer from "../../components/ParticlesContainer";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 import WorkSlider from "../../components/WorkSlider";
@@ -32,6 +32,8 @@ const Work = () => {
               We are specialized in providing comprehensive ERP solutions tailored for hospitals, laboratories, academic institutions, and on-demand software needs.
             </motion.p>
           </div>
+          {/* particles */}
+        <ParticlesContainer />
 
           {/* slider */}
           <motion.div
