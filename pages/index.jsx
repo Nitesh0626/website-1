@@ -34,7 +34,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Terabyte Innovations, based in Kathmandu, Nepal, is a leading software company specializing in ERP solutions such as Terabyte Academic, Hospital, and Laboratory Software.
+            Terabyte innovations, is a leading Company dealing in ERP Software's.
           </motion.p>
 
           {/* btn */}
