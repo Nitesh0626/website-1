@@ -10,15 +10,16 @@ const ProjectsBtn = () => {
         href="/work"
         className="relative w-[170px] h-[170px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
       >
+        {/* Remove pointer-events-none from Image */}
         <Image
           src="/rounded-text.png"
           alt="rounded text"
-          width={121}
-          height={131}
-          className="animate-spin-slow w-full h-full max-w-[121px] max-h-[131px] pointer-events-none select-none"
+          width={141}
+          height={148}
+          className="animate-spin-slow w-full h-full max-w-[141px] max-h-[148px]"
         />
         <HiArrowRight
-          className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300"
+          className="absolute text-4xl group-hover:translate-x-2 transition-all duration-300 z-10" // Add z-index for better positioning
           aria-hidden
         />
       </Link>
