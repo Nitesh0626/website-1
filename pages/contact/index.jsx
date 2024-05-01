@@ -101,8 +101,6 @@ const Contact = () => {
               required
               aria-required
             />
-              {/* particles */}
-        <ParticlesContainer />
             <button
               type="submit"
               className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
@@ -116,7 +114,8 @@ const Contact = () => {
                 aria-hidden
               />
             </button>
-            
+              {/* particles */}
+        <ParticlesContainer />
           </motion.form>
         </div>
       </div>
