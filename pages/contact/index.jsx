@@ -57,23 +57,26 @@ const Contact = () => {
           >
             {/* input group */}
             <div className="flex gap-x-6 w-full">
-              <input
-                type="text"
-                name="name"
-                placeholder="Name"
-                className="input"
-                disabled={isLoading}
-                aria-disabled={isLoading}
-                required
-                aria-required
-              />
+            <input
+             type="text"
+             name="name"
+             placeholder="Name"
+              className="input"
+              // Only disable when submitting
+              disabled={isLoading === true} 
+              aria-disabled={isLoading === true}
+              required
+              aria-required
+            />
+
+           
               <input
                 type="email"
                 name="email"
                 placeholder="E-mail"
                 className="input"
-                disabled={isLoading}
-                aria-disabled={isLoading}
+                disabled={isLoading === true}
+                aria-disabled={isLoading === true}
                 required
                 aria-required
               />
@@ -83,8 +86,8 @@ const Contact = () => {
               name="subject"
               placeholder="Subject"
               className="input"
-              disabled={isLoading}
-              aria-disabled={isLoading}
+              disabled={isLoading === true}
+              aria-disabled={isLoading === true}
               required
               aria-required
             />
@@ -92,27 +95,28 @@ const Contact = () => {
               name="message"
               placeholder="Message..."
               className="textarea"
-              disabled={isLoading}
-              aria-disabled={isLoading}
+              disabled={isLoading === true}
+              aria-disabled={isLoading === true}
               required
               aria-required
             />
             <button
-              type="submit"
-              className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
-              disabled={isLoading}
-              aria-disabled={isLoading}
-            >
-              <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                Let's talk
-              </span>
-              
+  type="submit"
+  className="btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center overflow-hidden hover:border-accent group"
+  // Only disable submit functionality
+  disabled={isLoading}
+  aria-disabled={isLoading}
+>
+  <span className="transition-all duration-500">  {/* Remove group-hover related styles */}
+    Let's talk
+  </span>
 
-              <BsArrowRight
-                className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
-                aria-hidden
-              />
-            </button>
+  <BsArrowRight
+    className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-300 absolute text-[22px]"
+    aria-hidden
+  />
+</button>
+
             {/* particles */}
         <ParticlesContainer />
           </motion.form>
