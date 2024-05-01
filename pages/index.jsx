@@ -22,10 +22,10 @@ const Home = () => {
             exit="hidden"
             className="h2"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            Your Vision <br /> Our{" "}
+            <span className="text-accent">Code</span>
           </motion.h2>
-
+ 
           {/* subtitle */}
           <motion.p
             variants={fadeIn("down", 0.3)}
@@ -34,7 +34,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Terabyte innovations, is a leading Company dealing in ERP Software's.
+            Terabyte innovations, is a leading Company dealing in ERP Software's. We are transforming ideas into digital reality.
           </motion.p>
 
           {/* btn */}
