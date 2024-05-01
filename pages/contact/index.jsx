@@ -1,39 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 import { motion } from "framer-motion";
-import { BsArrowRight, BsArrowDown } from "react-icons/bs";
+import { BsArrowRight } from "react-icons/bs";
 import ParticlesContainer from "../../components/ParticlesContainer";
 import Bulb from "../../components/Bulb"; // Assuming this is your custom bulb component
 import Circles from "../../components/Circles"; // Assuming this is your custom circles component
 
 const Contact = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleToggle = () => {
-    setIsOpen(!isOpen);
-  };
+  // No need for isOpen state in this case
 
   return (
     <div className="h-full bg-primary/30">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
-        {/* Text & button */}
+        {/* Text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
           <motion.h2
             variants={{
               open: { opacity: 1, scale: 1 },
               closed: { opacity: 0.7, scale: 0.9 },
             }}
-            initial="closed"
-            animate={isOpen ? "open" : "closed"}
+            initial="open" // Always open in this case
+            animate="open" // No animation change needed
             exit="closed"
-            className="h2 text-center mb-12 cursor-pointer"
-            onClick={handleToggle}
+            className="h2 text-center mb-12 cursor-default" // Not clickable
           >
             Let's <span className="text-accent">connect.</span>
-            {isOpen ? <BsArrowDown /> : <BsArrowRight />}
+            <BsArrowRight /> {/* Arrow for decoration */}
           </motion.h2>
 
-          {/* Form (hidden initially) */}
-          <div className={`flex-1 flex flex-col gap-6 w-full mx-auto transition-all duration-300 ${isOpen ? "block" : "hidden"}`}>
+          {/* Form (always visible) */}
+          <div className="flex-1 flex flex-col gap-6 w-full mx-auto">
             <div className="flex gap-x-6 w-full">
               <input
                 type="text"
