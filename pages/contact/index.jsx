@@ -19,7 +19,7 @@ const Contact = () => {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(formData).toString(),
+      body: formData,
     })
       .then(() => alert("Thank you. I will get back to you ASAP."))
       .catch((error) => console.log(error))
@@ -52,8 +52,9 @@ const Contact = () => {
             onSubmit={handleSubmit}
             autoComplete="off"
             autoCapitalize="off"
-            // only needed for production (in netlify) to accept form input
-            data-netlify="true"
+            // Replace with your actual Formspree action endpoint
+            action="https://formspree.io/terabyteinnvoations.np@gmail.com"
+            method="POST"
           >
             {/* Input group */}
             <div className="flex gap-x-6 w-full">
@@ -117,10 +118,4 @@ const Contact = () => {
           </motion.form>
         </div>
       </div>
-      <Bulb />
-      <Circles />
-    </div>
-  );
-};
-
-export default Contact;
+      
