@@ -114,6 +114,8 @@ const Contact = () => {
                 aria-hidden
               />
             </button>
+              {/* particles */}
+        <ParticlesContainer />
           </motion.form>
         </div>
       </div>
