@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
+import ParticlesContainer from "../components/ParticlesContainer";
 import { BsArrowRight } from "react-icons/bs";
 import { fadeIn } from "../../variants";
 import { useState } from "react";
@@ -27,6 +28,8 @@ const Contact = () => {
 
   return (
     <div className="h-full bg-primary/30">
+      {/* Particles */}
+      <ParticlesContainer />
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
         {/* Text & form */}
         <div className="flex flex-col w-full max-w-[700px]">
@@ -114,7 +117,7 @@ const Contact = () => {
               />
             </button>
               
-          </motion.form>
+            </motion.form>
         </div>
       </div>
       <Bulb />
@@ -122,5 +125,4 @@ const Contact = () => {
     </div>
   );
 };
-
 export default Contact;
