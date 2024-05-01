@@ -15,17 +15,17 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://carehub.terabyteinnovations.com/site/login",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://terabyteacademy.terabyteinnovations.com/site/login",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://terabytelab.terabyteinnovations.com/site/login",
         },
         {
           title: "title",
@@ -44,17 +44,17 @@ const workSlides = {
         {
           title: "title",
           path: "/thumb1.jpg",
-          link: "http://example.com",
+          link: "https://carehub.terabyteinnovations.com/site/login",
         },
         {
           title: "title",
           path: "/thumb2.jpg",
-          link: "http://example.com",
+          link: "https://terabyteacademy.terabyteinnovations.com/site/login",
         },
         {
           title: "title",
           path: "/thumb3.jpg",
-          link: "http://example.com",
+          link: "https://terabytelab.terabyteinnovations.com/site/login",
         },
       ],
     },
