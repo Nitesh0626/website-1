@@ -24,7 +24,7 @@ const testimonialData = [
   },
   {
     image: "/pk.jpg",
-    name: "Pratik Pokhare;",
+    name: "Pratik Pokharel",
     position: "UI/UX Designer",
     message:
       "Effective website design and digital marketing are essential for building a strong online presence, attracting and engaging visitors, and converting them into loyal customers. By combining aesthetically pleasing design with strategic digital marketing efforts, businesses can achieve significant growth and success in the digital landscape.",
