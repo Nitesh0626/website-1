@@ -31,7 +31,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              From SEO Insights to Custom Software: Your One-Stop Solution Provide
+              From SEO Insights to Custom Software: Your One-Stop Solution Provider
             </motion.p>
           </div>
           {/* particles */}
