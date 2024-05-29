@@ -29,8 +29,8 @@ const workSlides = {
         },
         {
           title: "title",
-          path: "/thumb4.jpg",
-          link: "http://example.com",
+          path: "/thumb4.png",
+          link: "http://about.terabyteinnovations.com",
         },
       ],
     },
