@@ -9,25 +9,25 @@ import "swiper/css/pagination";
 
 const testimonialData = [
   {
-    image: "/t-avt-1.png",
-    name: "Anne Smith",
-    position: "Customer",
+    image: "/bk.jpg",
+    name: "Birendra Karn",
+    position: "Chemistry Teacher",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Terabyte Academic ERP software is a powerful tool that can significantly enhance the efficiency, transparency, and effectiveness of educational institutions, ultimately leading to a better educational experience for both students and staff.",
   },
   {
-    image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    image: "/ac.jpg",
+    name: "Arbind Acharya",
+    position: "Doctor",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      " Terabyte Hospital ERP software is a comprehensive solution that can significantly improve the efficiency, effectiveness, and quality of healthcare delivery. It integrates all critical hospital functions into a single system, enhancing operational efficiency, patient care, and financial management.",
   },
   {
-    image: "/t-avt-3.png",
-    name: "Jhon Doe",
-    position: "Customer",
+    image: "/pk.jpg",
+    name: "Pratik Pokhare;",
+    position: "UI/UX Designer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "Effective website design and digital marketing are essential for building a strong online presence, attracting and engaging visitors, and converting them into loyal customers. By combining aesthetically pleasing design with strategic digital marketing efforts, businesses can achieve significant growth and success in the digital landscape.",
   },
 ];
 
