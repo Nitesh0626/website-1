@@ -39,7 +39,7 @@ const Home = () => {
 
           {/* btn */}
           <div className="flex justify-center md:hidden relative">
-            <ProjectsBtn />
+{/*             <ProjectsBtn />
           </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
@@ -48,7 +48,7 @@ const Home = () => {
             exit="hidden"
             className="hidden md:flex"
           >
-            <ProjectsBtn />
+            <ProjectsBtn /> */}
           </motion.div>
         </div>
       </div>
