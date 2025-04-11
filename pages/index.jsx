@@ -38,8 +38,8 @@ const Home = () => {
           </motion.p>
 
           {/* btn */}
-          <div className="flex justify-center md:hidden relative">
-{/*             <ProjectsBtn />
+{/*           <div className="flex justify-center md:hidden relative">
+          <ProjectsBtn />
           </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
@@ -48,10 +48,10 @@ const Home = () => {
             exit="hidden"
             className="hidden md:flex"
           >
-            <ProjectsBtn /> */}
+            <ProjectsBtn /> 
           </motion.div>
         </div>
-      </div>
+      </div> */}
       {/* image */}
       <div className="w-[1280px] h-full absolute right-0 bottom-0">
         {/* bg img */}
